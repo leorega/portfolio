@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "image": "./images/Captura-Food-Lovers.png", 
+            "name": "Single Page Application", 
+            "description": "Construí una Single Page Application utlizando las tecnologías: React, Redux, Node, Express y Sequelize.",
+            "repo": "https://github.com/leorega/food"
+          },
+          {
+            "id": 2,
+            "image": "./images/Captura-Video-Games.png", 
+            "name": "Single Page Application", 
+            "description": "Construí una Single Page Application utlizando las tecnologías: React, Redux, Node, Express y Sequelize.",
+            "repo": "https://github.com/leorega/videogames"
+          },
+          {
+            "id": 3,
+            "image": "./images/Captura-Tu-Sueño.png", 
+            "name": "Página E-commerce", 
+            "description": "Trabajé en el Frontend de una página web E-commerce para un emprendimiento Colombiano de alcancías.",
+            "repo": "https://github.com/UrielGarmendia/tu-suenio-front"
+          },
+          {
+            "id": 4,
+            "image": "./images/Captura-Vivero.png", 
+            "name": "Página Web para Vivero", 
+            "description": "Desarrollé una página web para un vivero llamado Las Hadas.",
+            "repo": "https://github.com/leorega/vivero"
+          }
+    ]
+}

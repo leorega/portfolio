@@ -1,40 +1,26 @@
-import React from 'react'
+import React from 'react';
+import projectsJson from '../../../public/projects.json';
+import { ImGithub } from "react-icons/im";
 
 const Projects = () => {
 
-  const projectsJson = [
-    {
-      image: "https://cdn.pixabay.com/photo/2016/08/20/06/44/e-commerce-1606962_1280.png", 
-      name: "Título del proyecto", 
-      description: "Esta es la descripción del proyecto"
-    },
-    {
-      image: "https://cdn.pixabay.com/photo/2016/08/20/06/44/e-commerce-1606962_1280.png", 
-      name: "Título del proyecto", 
-      description: "Esta es la descripción del proyecto"
-    },
-    {
-      image: "https://cdn.pixabay.com/photo/2016/08/20/06/44/e-commerce-1606962_1280.png", 
-      name: "Título del proyecto", 
-      description: "Esta es la descripción del proyecto"
-    },
-    {
-      image: "https://cdn.pixabay.com/photo/2016/08/20/06/44/e-commerce-1606962_1280.png", 
-      name: "Título del proyecto", 
-      description: "Esta es la descripción del proyecto"
-    }
-  ];
+
+
+  console.log(projectsJson);
 
   return (
-    <section id="projects" className='w-full min-h-screen flex justify-center pt-28 bg-slate-500'>
-        <div className='w-4/5 flex flex-col items-center'>
-            <h3 className='text-2xl font-bold mb-8'>Proyectos</h3>
-            <div className='w-full flex flex-wrap justify-evenly'>
-              {projectsJson.map((project) => (
-                <div key={project.name} className='flex flex-col items-center w-1/4 h-96 ml-1 mr-1 mb-8 bg-slate-300 bg-opacity-30 shadow-md shadow-green-100'>
-                  <img src={project?.image} alt={project?.name}/>
-                  <h4 className='font-bold text-base mt-4 mb-4'>{project?.name}</h4>
-                  <p className='font-semibold text-sm'>{project?.description}</p>
+    <section id="projects" className='w-full min-h-screen flex justify-center bg-slate-500 pt-20'>
+        <div className='w-4/5 flex flex-col items-center bg-slate-600 border-t-4 border-blue-400'>
+            <h3 className='text-3xl font-bold text-green-500 h-20 flex items-center'>Proyectos</h3>
+            <div className='w-full flex flex-wrap justify-evenly bg-slate-500 border-t-4 border-blue-400 pt-4'>
+              {projectsJson.projects.map((project) => (
+                <div key={project.id} className='flex flex-col items-center w-[30%] h-96 ml-1 mr-1 mb-8 shadow-md shadow-green-100 scale-100 hover:scale-105 ease-in duration-500 hover:bg-gradient-to-br from-slate-600 to-slate-300'>
+                  <img src={project?.image} alt={project?.name} className='h-1/2'/>
+                  <div className='p-3 flex flex-col h-1/2 items-center'> 
+                    <h4 className='font-bold text-base mt-4 mb-4'>{project?.name}</h4>
+                    <p className='font-semibold text-sm'>{project?.description}</p>
+                    <a href={project?.repo} target='_blank' rel='noreferrer' className='flex items-center mt-auto cursor-pointer text-sm font-semibold border-2 border-black hover:bg-green-500'>+ Ver Repo  <ImGithub className='mx-2'/> +</a>
+                  </div>
                 </div>
               ))}
             </div>
