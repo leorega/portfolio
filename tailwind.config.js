@@ -9,7 +9,7 @@ export default {
       keyframes: {
         scroll: {
           '0%': {transform: 'translateX(0)'},
-          '100%': {transform: 'translateX(calc(-128px*7))'}
+          '100%': {transform: 'translateX(calc(-128px*10))'}
         }
       }
     },

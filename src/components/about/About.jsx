@@ -2,7 +2,7 @@
 
 const About = () => {
   return (
-    <section id="about" className='w-full min-h-screen bg-green-300 flex flex-col items-center justify-center'>
+    <section id="about" className='w-full min-h-screen bg-green-500 flex flex-col items-center justify-center'>
       <div className="w-4/5 border-l-4 border-black p-4">
         <h3 className='text-xl font-bold mb-4'>Acerca de mí</h3>
         <p className='font-semibold'>Trabajé durante 21 años en una planta envasadora de agua mineral, donde me desarrollé

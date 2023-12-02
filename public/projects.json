@@ -19,13 +19,14 @@
             "image": "./images/Captura-Tu-Sueño.png", 
             "name": "Página E-commerce", 
             "description": "Trabajé en el Frontend de una página web E-commerce para un emprendimiento Colombiano de alcancías.",
-            "repo": "https://github.com/UrielGarmendia/tu-suenio-front"
+            "repo": "https://github.com/UrielGarmendia/tu-suenio-front",
+            "link": "https://tu-suenio-front.vercel.app/"
           },
           {
             "id": 4,
             "image": "./images/Captura-Vivero.png", 
-            "name": "Página Web para Vivero", 
-            "description": "Desarrollé una página web para un vivero llamado Las Hadas.",
+            "name": "Página Web para vivero", 
+            "description": "Desarrollé una página web para el vivero 'Las Hadas'.",
             "repo": "https://github.com/leorega/vivero"
           }
     ]
