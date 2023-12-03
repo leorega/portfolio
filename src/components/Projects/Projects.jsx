@@ -5,10 +5,6 @@ import { MdCallMissedOutgoing } from "react-icons/md";
 
 const Projects = () => {
 
-
-
-  console.log(projectsJson);
-
   return (
     <section id="projects" className='w-full min-h-screen flex justify-center bg-slate-500 pt-20'>
         <div className='w-4/5 flex flex-col items-center bg-slate-600 border-t-4 border-blue-400'>
