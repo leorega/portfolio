@@ -1,4 +1,4 @@
-import Home from "./components/home/Home";
+import Main from "./components/main/Main";
 import About from "./components/about/About"
 import Projects from "./components/Projects/Projects";
 import NavBar from "./components/navBar/NavBar";
@@ -12,7 +12,7 @@ function App() {
     <div className="flex flex-col justify-center items-center w-full min-h-screen">
       <NavBar/>
       <SocialBar/>
-      <Home/>
+      <Main/>
       <About/>
       <Projects/>
       <Form/>

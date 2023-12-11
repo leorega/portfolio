@@ -7,10 +7,10 @@ const Footer = () => {
         <div className='flex font-black text-3xl drop-shadow-md cursor-pointer'>
           <h2 className='text-blue-400'>Leo</h2><h2 className='text-green-500'>Rega!</h2>
         </div>
-        <div className='text-white'>
-            Leonardo Gabriel Regazzoni {"<Desarrollador Full Stack>"}
+        <div className='text-white hidden md:block'>
+            Leonardo Regazzoni {"<Desarrollador Full Stack>"}
         </div>
-        <nav className='text-blue-400 flex flex-col'>
+        <nav className='text-blue-400 flex flex-col lg:flex-row lg:w-1/4 justify-between'>
           <a className='box-border hover:font-bold border-blue-400' href="#about">Sobre mi</a>
           <a className='box-border hover:font-bold border-blue-400' href="#projects">Proyectos</a>
           <a className='box-border hover:font-bold border-blue-400' href="#contact">Contacto</a>
