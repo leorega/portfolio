@@ -26,7 +26,7 @@ const About = () => {
           de trabajo en equipo, ágiles, tipo SCRUM y con tableros de tareas como Trello.
         </p>
         <p className="font-semibold">
-          A partir de ese momento ya no me detuve y me mantengo en consante exploración y aprendizaje, transformando mi vida en esto que soy ahora y de 
+          A partir de ese momento ya no me detuve y me mantengo en constante exploración y aprendizaje, transformando mi vida en esto que soy ahora y de 
           lo cual me siento muy orgulloso, un <strong> Desarrollador FullStack.</strong>
         </p>
       </div>
