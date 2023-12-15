@@ -28,6 +28,13 @@
             "name": "Página Web para vivero", 
             "description": "Desarrollé una página web para el vivero 'Las Hadas'.",
             "repo": "https://github.com/leorega/vivero"
+          },
+          {
+            "id": 5,
+            "image": "./images/Captura-RickandMorty.png", 
+            "name": "Proyecto bootcamp Henry", 
+            "description": "Desarrollé una SPA que muestra los personajes de la serie Rick and Morty. Detalles en el repo ;)",
+            "repo": "https://github.com/leorega/Rick_and_Morty"
           }
     ]
 }
