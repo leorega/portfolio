@@ -11,7 +11,7 @@ const NavBar = () => {
       <div className='flex w-4/5 mx-auto justify-between items-center h-full'>
         <div className='flex font-black text-3xl drop-shadow-md cursor-pointer'>
           <Link to="home" smooth={true} duration={500} className="flex">
-            <h2 className='text-blue-400'>Leo</h2><h2 className='text-green-500'>Rega!</h2>
+            <h2 translate="no" className='text-blue-400'>Leo</h2><h2 translate="no" className='text-green-500'>Rega!</h2>
           </Link>
         </div>
         <div className="lg:hidden">
