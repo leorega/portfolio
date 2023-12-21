@@ -10,10 +10,10 @@ const Main = () => {
         <h1 className="font-extrabold text-blue-400 text-4xl md:text-6xl mb-4 drop-shadow-xl border-b-[6px] pb-4 border-green-500">
         Leonardo Regazzoni
         </h1>
-        <h3 className="font-mono font-bold text-2xl">Desarrollador Web FullStack</h3>
+        <h3 className="font-mono font-bold text-xl md:text-2xl">Desarrollador Web FullStack</h3>
         <div className="mt-4 flex justify-center items-center">
           <MdOutlineKeyboardDoubleArrowLeft className="text-2xl text-green-500" />
-          <a href="./CV Leonardo Regazzoni.pdf" download className="flex flex-col items-center text-blue-400 font-bold text-xl mx-4 hover:drop-shadow-xl">
+          <a href="./CV Leonardo Regazzoni.pdf" download className="flex flex-col items-center text-blue-400 font-bold text-xl mx-4 hover:text-green-500">
             <MdCloudDownload className="mx-2 animate-bounce"/> CV
           </a>
           <MdOutlineKeyboardDoubleArrowRight className="text-2xl text-green-500" />

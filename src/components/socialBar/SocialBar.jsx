@@ -2,7 +2,7 @@
 
 const SocialBar = () => {
   return (
-    <aside className='flex flex-col fixed right-0 top-[350px] z-20 w-12 p-3 bg-slate-300 bg-opacity-70 rounded-s-xl rounded-bl-xl shadow-[1px_1px_10px_5px_rgb(204,255,238)]'>
+    <aside className='flex flex-col fixed right-0 top-[300px] z-20 w-12 p-3 bg-slate-300 bg-opacity-70 rounded-s-xl rounded-bl-xl shadow-[1px_1px_10px_5px_rgb(204,255,238)]'>
       <a href="https://wa.me/542235771436" target="_blank" className="mb-4">
         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="fill-current text-green-600 hover:text-white">
             <title>WhatsApp</title>
