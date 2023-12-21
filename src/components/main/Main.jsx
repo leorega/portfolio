@@ -13,7 +13,7 @@ const Main = () => {
         <h3 className="font-mono font-bold text-xl md:text-2xl">Desarrollador Web FullStack</h3>
         <div className="mt-4 flex justify-center items-center">
           <MdOutlineKeyboardDoubleArrowLeft className="text-2xl text-green-500" />
-          <a href="./CV Leonardo Regazzoni.pdf" download className="flex flex-col items-center text-blue-400 font-bold text-xl mx-4 hover:text-green-500">
+          <a href="./CV Leonardo Regazzoni.pdf" title="Descargar" download className="flex flex-col items-center text-blue-400 font-bold text-xl mx-4 hover:text-green-500">
             <MdCloudDownload className="mx-2 animate-bounce"/> CV
           </a>
           <MdOutlineKeyboardDoubleArrowRight className="text-2xl text-green-500" />
