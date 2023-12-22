@@ -20,7 +20,7 @@ const NavBar = () => {
           </button>
         </div>
         <nav className={`${state} text-blue-400 bg-slate-600 w-1/2 flex flex-col fixed top-16 right-0 h-40 items-center justify-around rounded-bl-xl lg:flex lg:flex-row lg:static lg:bg-opacity-10 lg:h-full lg:rounded-none lg:w-1/4`}>
-          <a onClick={()=>(setState(state==='hidden' ? 'block' : 'hidden'))} className='pt-2 lg:hover:border-t-2 hover:font-bold duration-150 border-blue-400' href="#about">Sobre mi</a>
+          <a onClick={()=>(setState(state==='hidden' ? 'block' : 'hidden'))} className='pt-2 lg:hover:border-t-2 hover:font-bold duration-150 border-blue-400' href="#about">Sobre mí</a>
           <a onClick={()=>(setState(state==='hidden' ? 'block' : 'hidden'))} className='pt-2 lg:hover:border-t-2 hover:font-bold duration-150 border-blue-400' href="#projects">Proyectos</a>
           <a onClick={()=>(setState(state==='hidden' ? 'block' : 'hidden'))} className='pt-2 lg:hover:border-t-2 hover:font-bold duration-150 border-blue-400' href="#contact">Contacto</a>
         </nav>
