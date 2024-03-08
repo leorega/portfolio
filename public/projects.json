@@ -35,6 +35,20 @@
             "name": "Proyecto bootcamp Henry", 
             "description": "Desarrollé una SPA que muestra los personajes de la serie Rick and Morty. Detalles en el repo ;)",
             "repo": "https://github.com/leorega/Rick_and_Morty"
+          },
+          {
+            "id": 6,
+            "image": "./images/App de tareas.png", 
+            "name": "Proyecto App de tareas", 
+            "description": "Desarrollé una app de tareas, utilizando Nestjs, Mongodb, React, Tailwind y TypeScript",
+            "repo": "https://github.com/leorega/Task-React-FE"
+          },
+          {
+            "id": 7,
+            "image": "./images/Captura-PHP.png", 
+            "name": "Desarrollo para diplomatura FullStack con PHP", 
+            "description": "Realicé el desarrollo de todo lo requerido para completar la diplomaturade Desarrollador Full Stack con PHP de la Universidad Tecnológica Nacional",
+            "repo": "https://github.com/leorega/PHP-avanzado"
           }
     ]
 }
