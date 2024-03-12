@@ -19,7 +19,9 @@ const ProjectCard = (props) => {
                 <h4 className="font-bold text-base mt-4 mb-4">
                     {project?.name}
                 </h4>
-                <p className="font-semibold text-sm">{project?.description}</p>
+                <p className="font-semibold text-sm overflow-auto hover:overscroll-contain">
+                    {project?.description}
+                </p>
                 <div className="mt-auto w-4/5 flex justify-around py-2">
                     {project.link ? (
                         <a

@@ -24,7 +24,7 @@ const About = () => {
                                 producción y capacitar operadores.{" "}
                                 <strong>
                                     {" "}
-                                    Hasta que decidí cambiar de rumbo mi vida
+                                    Hasta que decidí cambiar de rumbo mi vida,{" "}
                                 </strong>
                                 ya que me encontraba estancado, sin una
                                 motivación real, auténtica; entonces decidí
