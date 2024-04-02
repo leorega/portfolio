@@ -51,7 +51,7 @@ const ProjectCard = (props) => {
 };
 
 ProjectCard.propTypes = {
-    project: PropTypes.arrayOf,
+    project: PropTypes.object,
 };
 
 export default ProjectCard;

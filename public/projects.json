@@ -41,7 +41,8 @@
             "image": "./images/App de tareas.png", 
             "name": "Proyecto App de tareas", 
             "description": "Desarrollé una app de tareas, utilizando Nestjs, Mongodb, React, Tailwind y TypeScript",
-            "repo": "https://github.com/leorega/Task-React-FE"
+            "repo": "https://github.com/leorega/Task-React-FE",
+            "link": "https://tasks-viewer.vercel.app/"
           },
           {
             "id": 7,
