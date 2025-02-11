@@ -1,6 +1,6 @@
 import Main from "./components/main/Main";
 import About from "./components/about/About";
-import Projects from "./components/projects/Projects";
+import Projects from "./components/Projects/Projects";
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
 import SocialBar from "./components/socialBar/SocialBar";
