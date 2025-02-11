@@ -9,24 +9,34 @@ const Main = () => {
             id="home"
             className="flex flex-col items-center justify-center w-full min-h-screen bg-slate-500 shadow-2xl"
         >
-            <div className=" md:w-4/5 flex flex-col items-center mb-32">
-                <h1 className="font-extrabold text-blue-400 text-4xl md:text-6xl mb-4 drop-shadow-xl border-b-[6px] pb-4 border-green-500">
-                    Leonardo Regazzoni
-                </h1>
-                <h3 className="font-mono font-bold text-xl md:text-2xl">
-                    Desarrollador Web FullStack
-                </h3>
-                <div className="mt-4 flex justify-center items-center">
-                    <MdOutlineKeyboardDoubleArrowLeft className="text-2xl text-green-500" />
-                    <a
-                        href="./Leonardo Regazzoni CV.pdf"
-                        title="Descargar CV"
-                        download
-                        className="flex flex-col items-center text-blue-400 font-bold text-xl mx-4 hover:text-green-500"
-                    >
-                        <MdCloudDownload className="mx-2 animate-bounce" /> CV
-                    </a>
-                    <MdOutlineKeyboardDoubleArrowRight className="text-2xl text-green-500" />
+            <div className=" md:w-4/5 flex justify-center gap-4 items-center mb-20">
+                <img
+                    src="https://avatars.githubusercontent.com/u/70964602?v=4"
+                    alt="Leonardo Regazzoni"
+                    className="w-32 h-32 md:w-52 md:h-60 -rotate-12 hover:rotate-0 transition-transform duration-500 rounded-tr-lg rounded-bl-lg shadow-md shadow-green-500"
+                    title="Leonardo Regazzoni"
+                    loading="lazy"
+                />
+                <div className="">
+                    <h1 className="font-extrabold text-blue-400 text-4xl md:text-6xl mb-4 drop-shadow-xl border-b-[6px] pb-4 border-green-500">
+                        Leonardo Regazzoni
+                    </h1>
+                    <h3 className="font-mono font-bold text-xl md:text-2xl">
+                        Desarrollador Web FullStack
+                    </h3>
+                    <div className="mt-4 flex justify-center items-center">
+                        <MdOutlineKeyboardDoubleArrowLeft className="text-2xl text-green-500" />
+                        <a
+                            href="./Leonardo Regazzoni CV.pdf"
+                            title="Descargar CV"
+                            download
+                            className="flex flex-col items-center text-blue-400 font-bold text-xl mx-4 hover:text-green-500"
+                        >
+                            <MdCloudDownload className="mx-2 animate-bounce" />{" "}
+                            CV
+                        </a>
+                        <MdOutlineKeyboardDoubleArrowRight className="text-2xl text-green-500" />
+                    </div>
                 </div>
             </div>
             <Slider />

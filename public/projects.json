@@ -2,21 +2,21 @@
     "projects": [
         {
             "id": 1,
-            "image": "./images/Captura-Food-Lovers.png", 
+            "image": ["./images/Captura-Food-Lovers.png"], 
             "name": "Single Page Application", 
             "description": "Construí una Single Page Application utlizando las tecnologías: React, Redux, Node, Express y Sequelize.",
             "repo": "https://github.com/leorega/food"
           },
           {
             "id": 2,
-            "image": "./images/Captura-Video-Games.png", 
+            "image": ["./images/Captura-Video-Games.png"], 
             "name": "Single Page Application", 
             "description": "Construí una Single Page Application utlizando las tecnologías: React, Redux, Node, Express y Sequelize.",
             "repo": "https://github.com/leorega/videogames"
           },
           {
             "id": 3,
-            "image": "./images/Captura-Tu-Sueño.png", 
+            "image": ["./images/Captura-Tu-Sueño.png"], 
             "name": "Página E-commerce", 
             "description": "Trabajé en el Frontend de una página web E-commerce para un emprendimiento Colombiano de alcancías.",
             "repo": "https://github.com/UrielGarmendia/tu-suenio-front",
@@ -24,21 +24,21 @@
           },
           {
             "id": 4,
-            "image": "./images/Captura-Vivero.png", 
+            "image": ["./images/Captura-Vivero.png"], 
             "name": "Página Web para vivero", 
             "description": "Desarrollé una página web para el vivero 'Las Hadas'.",
             "repo": "https://github.com/leorega/vivero"
           },
           {
             "id": 5,
-            "image": "./images/Captura-RickandMorty.png", 
+            "image": ["./images/Captura-RickandMorty.png"], 
             "name": "Proyecto bootcamp Henry", 
             "description": "Desarrollé una SPA que muestra los personajes de la serie Rick and Morty. Detalles en el repo ;)",
             "repo": "https://github.com/leorega/Rick_and_Morty"
           },
           {
             "id": 6,
-            "image": "./images/App de tareas.png", 
+            "image": ["./images/Captura-App-Tareas.png"], 
             "name": "Proyecto App de tareas", 
             "description": "Desarrollé una app de tareas, utilizando Nestjs, Mongodb, React, Tailwind y TypeScript",
             "repo": "https://github.com/leorega/Task-React-FE",
@@ -46,10 +46,22 @@
           },
           {
             "id": 7,
-            "image": "./images/Captura-PHP.png", 
+            "image": ["./images/Captura-PHP.png"], 
             "name": "Desarrollo para diplomatura FullStack con PHP", 
             "description": "Realicé el desarrollo de todo lo requerido para completar la diplomatura de Desarrollador Full Stack con PHP de la Universidad Tecnológica Nacional",
             "repo": "https://github.com/leorega/PHP-avanzado"
+          },
+          {
+            "id": 8,
+            "image": [
+                "./images/Stock-Control-1.png",
+                "./images/Stock-Control-2.png",
+                "./images/Stock-Control-3.png",
+                "./images/Stock-Control-4.png"
+            ], 
+            "name": "Aplicación para control de stock local",
+            "description": "Desarrollé una aplicación para control de stock local, utilizando Codeigniter, MySQL y Bootstrap",
+            "repo": "https://github.com/leorega/stock-control"
           }
     ]
 }
