@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
             {/* Swiper para mostrar varias imágenes */}
             <Swiper
                 modules={[Navigation, Pagination]}
-                navigation={true}
+                navigation
                 pagination={{ clickable: true }}
                 className="lg:h-1/2 w-full"
             >
