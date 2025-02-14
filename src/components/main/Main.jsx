@@ -11,7 +11,7 @@ const Main = () => {
         >
             <div className=" md:w-4/5 flex justify-center gap-4 items-center mb-20">
                 <img
-                    src="../../../public/images/Foto-perfil-sin-fondo.png"
+                    src="/images/Foto-perfil-sin-fondo.png"
                     alt="Leonardo Regazzoni"
                     className="w-32 h-32 md:w-60 md:h-60 -rotate-12 hover:rotate-0 transition-transform duration-500 ease-in-out border-2 border-green-500 rounded-full shadow-2xl"
                     title="Leonardo Regazzoni"
