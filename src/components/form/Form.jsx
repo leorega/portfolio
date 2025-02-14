@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
@@ -11,6 +11,22 @@ const Form = () => {
             icon: "success",
             title: "Gracias por tu mensaje",
             text: "De ser necesario, te contestaré lo antes posible",
+            showConfirmButton: true,
+            position: "center",
+            timer: 2000,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                document.getElementById("form").reset();
+            }
+        });
+    };
+
+    const showAlert2 = () => {
+        Swal.fire({
+            toast: true,
+            icon: "error",
+            title: "Ocurrió un error al enviar tu mensaje",
+            text: "Por favor, intenta de nuevo. Si el problema persiste, contactame a través de mis redes sociales →",
             showConfirmButton: true,
             position: "center",
         }).then((result) => {
@@ -36,6 +52,7 @@ const Form = () => {
                     console.log(result.text);
                 },
                 (error) => {
+                    showAlert2();
                     console.log(error.text);
                 }
             );
