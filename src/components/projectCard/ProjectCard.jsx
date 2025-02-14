@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
     return (
         <div
             translate="no"
-            className="flex flex-col items-center md:w-[45%] lg:w-[30%] lg:h-96 ml-1 mr-1 mb-8 shadow-md shadow-green-100 scale-100 lg:hover:scale-105 ease-in duration-500 hover:bg-gradient-to-br from-slate-600 to-slate-300"
+            className="flex flex-col items-center w-full md:w-[45%] lg:w-[30%] lg:h-96 ml-1 mr-1 mb-8 shadow-md shadow-green-100 scale-100 lg:hover:scale-105 ease-in duration-500 hover:bg-gradient-to-br from-slate-600 to-slate-300"
         >
             {/* Swiper para mostrar varias imágenes */}
             <Swiper

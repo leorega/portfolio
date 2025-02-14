@@ -7,7 +7,7 @@ const Projects = () => {
             id="projects"
             className="w-full min-h-screen flex justify-center bg-slate-500 pt-20"
         >
-            <div className="lg:w-4/5 flex flex-col items-center bg-slate-600 border-t-4 border-blue-400">
+            <div className="w-full lg:w-4/5 flex flex-col items-center bg-slate-600 border-t-4 border-blue-400">
                 <h3 className="text-3xl font-bold text-green-500 h-20 flex items-center">
                     Proyectos
                 </h3>
