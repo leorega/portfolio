@@ -80,11 +80,14 @@ const About = () => {
                                 cuenta
                                 <strong>
                                     {" "}
-                                    Tailwind, Mongo, Laravel, Next, Bootstrap
+                                    Tailwind, Mongo, Laravel, Next, Bootstrap.
                                 </strong>{" "}
-                                y sigo incorporando conocimientos. Manejo muy
-                                bien control de versiones con{" "}
-                                <strong>Git, GitHub, GitLab</strong>
+                                Manejo muy bien control de versiones con{" "}
+                                <strong>Git, GitHub, GitLab.</strong>{" "}
+                                Actualmente estoy tomando un curso de{" "}
+                                <strong>
+                                    Desarrollo Móvil en Android Studio con Java.
+                                </strong>
                             </p>
                         </Accordion.Content>
                     </Accordion.Panel>
