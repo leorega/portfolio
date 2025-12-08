@@ -48,14 +48,14 @@ const About = () => {
                                     IRSO
                                 </strong>
                                 , donde vi las bases de <b>C</b>, pero tuve que
-                                dejarla por la pandemia de COVID.
+                                dejarla por la pandemia de COVID...
                             </p>
                             <p className="font-semibold">
-                                <i className="text-red-800 text-lg">
+                                <i className="text-red-600 text-lg">
                                     No iba a darme por vencido!
                                 </i>
                                 , así que me puse a estudiar nuevamente y
-                                entonces me metí en la carrera de
+                                entonces me inscribí en la carrera de
                                 <strong>
                                     {" "}
                                     Web Developer FullStack de Henry
@@ -83,11 +83,22 @@ const About = () => {
                                     Tailwind, Mongo, Laravel, Next, Bootstrap.
                                 </strong>{" "}
                                 Manejo muy bien control de versiones con{" "}
-                                <strong>Git, GitHub, GitLab.</strong>{" "}
-                                Actualmente estoy tomando un curso de{" "}
-                                <strong>
-                                    Desarrollo Móvil en Android Studio con Java.
-                                </strong>
+                                <strong>Git, GitHub, GitLab.</strong>
+                                <p>
+                                    Acabo de terminar y aprobar un curso de{" "}
+                                    <strong>
+                                        Desarrollo Móvil en Android Studio con
+                                        Java.
+                                    </strong>
+                                </p>
+                                <p>
+                                    <strong>Actualmente</strong> estoy
+                                    trabajando como{" "}
+                                    <i>Desarrollador Web FullStack</i> en un
+                                    equipo que desarrolla para distintos
+                                    organismos, tanto públicos como privados,
+                                    que necesitan soluciones digitales a medida.
+                                </p>
                             </p>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -101,7 +112,7 @@ const About = () => {
                                 de las diplomaturas, aprendí a trabajar con
                                 metodologías ágiles de trabajo en equipo como{" "}
                                 <strong>SCRUM</strong>. <br /> Organización de
-                                trabajo con tableros tipo Trello. <br />
+                                trabajo con tableros tipo Trello o Jira. <br />
                                 También tengo experiencia trabajando en equipo
                                 con control de versiones en GitHub. <br />
                                 Tengo un nivel de inglés B2 y sigo estudiando.{" "}
@@ -111,7 +122,9 @@ const About = () => {
                                 cambio. <br />
                                 Mi cultura de trabajo ideal es Commander, la
                                 cual valora el orden, la estructura y la
-                                eficiencia.
+                                eficiencia. <br />
+                                Tengo experiencia en presentaciones de sistemas
+                                al cliente y capacitaciones a usuarios finales.
                             </p>
                         </Accordion.Content>
                     </Accordion.Panel>
